@@ -2,9 +2,11 @@ Hyperledger Fabric Membersrvc
 ===
 Docker images for [Hyperledger](https://www.hyperledger.org) fabric membersrvc.
 
+Note: in fabric 1.0, the membersrvc is decoupled as [farbic-cop](https://github.com/yeasy/docker-hyperledger-fabric-cop).
+
 # Supported tags and respective Dockerfile links
 
-* [`latest` (latest/Dockerfile)](https://github.com/yeasy/docker-hyperledger-fabric-membersrvc/blob/master/Dockerfile): Default to enable pbft as consensus.
+* [`latest` (latest/Dockerfile)](https://github.com/yeasy/docker-hyperledger-fabric-membersrvc/blob/master/Dockerfile): Same with 0.6-dp.
 * [`0.6-dp` (0.6-dp/Dockerfile)](https://github.com/yeasy/docker-hyperledger-fabric-membersrvc/blob/0.6-dp/Dockerfile): Use 0.6-developer-preview branch code.
 
 For more information about this image and its history, please see the relevant manifest file in the [`yeasy/docker-hyperledger-fabric-membersrvc` GitHub repo](https://github.com/yeasy/docker-hyperledger-fabric-membersrvc).
